@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  height: 35px;
+}
+
+.nav button {
+  width: 50vw;
+  border: none;
+}
+
+/* keyboard */
+.header-div {
+  background-color: indianred;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.header {
+  background-color: white;
+  width: 80vw;
+  height: 40px;
+  margin: 0;
+}
+
+/* כל המקלדת והכפתורים */
+.keyboard {
+  border: solid 1px black;
+  display: flex;
+  gap: 0.2vw;
+  position: absolute;
+  bottom: 10px;
+}
+
+.keyboard button {
+  color: white;
+  background-color: black;
+}
+
+.colors {
+  display: flex;
+  width: 17vw;
+}
+
+.three-parts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2vw;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right button {
+  height: 30%;
+  width: 9vw;
+}
+
+.U {
+  text-decoration: underline;
+}
+
+.B {
+  font-weight: bold;
+}
+
+.top-line {
+  display: grid;
+  grid-template-columns: 8vw 8vw 8vw 8vw 8vw 2fr 8vw 8vw;
+  gap: 0.2vw;
+  height: 4vw;
+}
+
+.letter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0.2vw;
+}
+
+.letter button {
+  width: 8vw;
+  height: 4vw;
+}
+
+.buttom-line {
+  gap: 0.2vw;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 2.5fr 1.5fr 1.5fr 1.5fr;
+}
+
+.buttom-line button {
+  height: 4vw;
+}
+
+
+/* get 100 */
+.three-btns {
+  background-color: indianred;
+  display: flex;
+  gap: 10px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.three-btns button {
+  background-color: white;
+  border: none;
+  height: 35px;
+  width: 27vw;
+}
+
+/* רשימת השחקנים עם המספרים שלהם */
+.list-users-nums {
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list-users-nums span {
+  background-color: indianred;
+  border-radius: 3px;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.userCard {
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 10px rgb(125, 125, 125);
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-num {
+  box-shadow: 0 0 5px rgb(125, 125, 125);
+  background-color: indianred;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.operation-btn {
+  box-shadow: 0 0 4px rgb(125, 125, 125);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  height: 25px;
+  width: 30px;
+}
+
+.leave-btn {
+  box-shadow: 0 0 4px rgb(125, 125, 125);
+  background-color: indianred;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  height: 25px;
+  width: 70px;
+}
